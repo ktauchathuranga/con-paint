@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Contribution Drawer</title>
+    <title>con-paint | GitHub Contribution Drawer</title>
     <style>
         * {
             margin: 0;
@@ -349,7 +349,7 @@
 
 <body>
     <div class="container">
-        <h1>🎨 Draw Your GitHub Contribution Graph</h1>
+        <h1>con-paint | Draw Your GitHub Contribution Graph</h1>
 
         <div class="controls">
             <div class="form-grid">
@@ -407,7 +407,7 @@
                     </select>
                     <button type="button" class="local-timezone-btn" id="local-timezone-btn">Use Local Timezone</button>
                 </div>
-                <button class="generate-btn" id="generate-btn">✨ Generate & Download Repo</button>
+                <button class="generate-btn" id="generate-btn">Generate & Download Repo</button>
             </div>
         </div>
 
