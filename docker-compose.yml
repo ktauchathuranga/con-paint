@@ -1,0 +1,12 @@
+services:
+  con-paint:
+    build: .
+    container_name: con-paint-app
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+      - ./generated:/var/www/html/generated
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html
+    restart: unless-stopped

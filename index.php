@@ -169,7 +169,8 @@
         }
 
         .legend .empty {
-            background-color: #21262d;
+            background-color: #3d444d;
+            border: 1px solid #4a5159;
         }
 
         .legend .selected {
@@ -219,7 +220,8 @@
         .contribution-graph td.day {
             width: 11px;
             height: 11px;
-            background-color: #21262d;
+            background-color: #3d444d;
+            border: 1px solid #4a5159;
             border-radius: 2px;
             cursor: pointer;
             transition: all 0.15s ease;
@@ -227,10 +229,11 @@
         }
 
         .contribution-graph td.day:hover {
-            stroke: #58a6ff;
-            stroke-width: 2px;
+            border-color: #58a6ff;
+            border-width: 2px;
             transform: scale(1.2);
             z-index: 10;
+            box-shadow: 0 0 8px rgba(88, 166, 255, 0.4);
         }
 
         .contribution-graph td.empty {
@@ -238,15 +241,18 @@
             cursor: default;
             width: 11px;
             height: 11px;
+            border: none;
         }
 
         .contribution-graph td.selected {
             background-color: #39d353;
+            border-color: #2ea043;
             box-shadow: 0 0 8px rgba(57, 211, 83, 0.5);
         }
 
         .contribution-graph td.selected:hover {
             background-color: #2ea043;
+            border-color: #238636;
         }
 
         .info-panel {
